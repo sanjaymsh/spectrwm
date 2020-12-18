@@ -4,7 +4,12 @@ matrix:
   include:
     - os: linux
       dist: xenial
+      arch: amd64
+    - os: linux
+      dist: xenial
+      arch: ppc64le
     - os: osx
+      arch: amd64
 
 addons:
   apt:
